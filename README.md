@@ -1,4 +1,4 @@
-<img src=./docs/logo.png" height="75" />
+<img src="./docs/logo.png" height="75" />
 
 # Convergence mxGraph Adapter
 [![Build Status](https://travis-ci.org/convergencelabs/mxgraph-adapter.svg?branch=master)](https://travis-ci.org/convergencelabs/mxgraph-adapter)
