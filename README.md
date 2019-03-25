@@ -28,7 +28,7 @@ Install package with NPM and add it to your development dependencies:
 
 ## Usage
 
-The following HTML creates a container element for mxGraph.
+The following HTML creates a container element for mxGraph. The full code can be seen in the [Example](./example).
 
 ```html
 <div id="mxgraph" style="height: 400px; width: 600px"></div>
