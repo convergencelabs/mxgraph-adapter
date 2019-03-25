@@ -5,6 +5,8 @@
 
 The **Convergence mxGraph Adapter** makes it easy to provide a collaborative diagram editing experience using [mxGraph](https://github.com/jgraph/mxgraph) and [Convergence](https://convergence.io). This adapter provides shared editing of graph data along with shared pointers and selection.
 
+A live example, as part of the Convergence Examples, can be found [here](https://examples.convergence.io/examples/mxgraph/).
+
 This project also forms the basis of the [mxGraph Graph Editor Demo](https://github.com/convergencelabs/mxgraph-demo).
 
 ## Installation
