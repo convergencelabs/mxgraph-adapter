@@ -1,4 +1,4 @@
-<img src="./docs/logo.png" height="75" />
+<img src="https://convergence.io/assets/img/convergence-logo.png" height="75" />
 
 # Convergence mxGraph Adapter
 [![Build Status](https://travis-ci.org/convergencelabs/mxgraph-adapter.svg?branch=master)](https://travis-ci.org/convergencelabs/mxgraph-adapter)
@@ -18,12 +18,12 @@ Install package with NPM and add it to your development dependencies:
 ## Building
 
 * `npm install`
-* `npm run build`
+* `npm run dist`
 
 ## Run the Example
 
 * `npm install`
-* `npm run build`
+* `npm run dist`
 * Update the configuration as described in `examples/config.example.js`.
 * `npm start`
 * Browse to `http://localost:4100`

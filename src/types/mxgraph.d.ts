@@ -48,7 +48,7 @@ declare module "mxgraph" {
   export class mxCell extends mxEventSource {
 
     public id: string;
-    public style: stirng;
+    public style: string;
     public value: any;
     public edge: any;
     public vertex: any;
@@ -92,7 +92,7 @@ declare module "mxgraph" {
   }
 
   export const mxEvent: {
-    ADD: strin;
+    ADD: string;
     CHANGE: string;
     CELLS_ADDED: string;
     CELLS_REMOVED: string;
@@ -117,46 +117,46 @@ declare module "mxgraph" {
     public cell: mxCell;
     public terminal: mxCell | null;
     public source: boolean;
-    public previous: stirng;
+    public previous: mxCell | null;
   }
 
   export class mxGeometryChange {
     public model: mxGraphModel;
     public cell: mxCell;
     public geometry: any;
-    public previous: stirng;
+    public previous: any;
   }
 
   export class mxStyleChange {
     public model: mxGraphModel;
     public cell: mxCell;
     public style: string;
-    public previous: stirng;
+    public previous: string;
   }
 
   export class mxValueChange {
     public model: mxGraphModel;
     public cell: mxCell;
     public value: any;
-    public previous: stirng;
+    public previous: any;
   }
 
   export class mxCollapseChange {
     public model: mxGraphModel;
     public cell: mxCell;
     public collapsed: boolean;
-    public previous: stirng;
+    public previous: boolean;
   }
 
   export class mxVisibleChange {
     public model: mxGraphModel;
     public cell: mxCell;
     public visible: boolean;
-    public previous: stirng;
+    public previous: boolean;
   }
 
   export class mxPoint {
-    public x: numnber;
+    public x: number;
     public y: number;
 
     constructor(x?: number, y?: number);

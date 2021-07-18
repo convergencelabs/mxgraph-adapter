@@ -1,11 +1,5 @@
 import {mxCell, mxGeometry, mxGraphModel, mxPoint} from "mxgraph";
-import {
-  ICellData,
-  IGeometry,
-  IModelData,
-  IPoint,
-  IStyleData
-} from "./MxGraphData";
+import {ICellData, IGeometry, IModelData, IPoint, IStyleData} from "./MxGraphData";
 
 export class Serializer {
 
@@ -19,19 +13,12 @@ export class Serializer {
 
     const root = model.root.id;
 
-    const result = {
+    return {
       root,
       cells
     };
-
-    return result;
   }
 
-  /**
-   *
-   * @param {mxCell} cell
-   * @returns *
-   */
   public static serializeMxCell(cell: mxCell): ICellData {
     const result: ICellData = {
       id: cell.id
@@ -122,10 +109,6 @@ export class Serializer {
     };
   }
 
-  /**
-   *
-   * @param {string} style
-   */
   public static serializeStyle(style: string): IStyleData {
     const result: IStyleData = {
       classes: [],

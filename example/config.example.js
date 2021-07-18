@@ -6,4 +6,4 @@
  *
  * 2. Update the CONVERGENCE_URL to point to you Convergence server and domain.
  */
-const CONVERGENCE_URL = "http://localhost:8000/realtime/convergence/default";
+const CONVERGENCE_URL = "http://localhost:8000/api/realtime/convergence/default";
