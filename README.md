@@ -1,7 +1,8 @@
 <img src="https://convergence.io/assets/img/convergence-logo.png" height="75" />
 
 # Convergence mxGraph Adapter
-[![Build Status](https://travis-ci.org/convergencelabs/mxgraph-adapter.svg?branch=master)](https://travis-ci.org/convergencelabs/mxgraph-adapter)
+[![example workflow](https://github.com/convergencelabs/mxgraph-adapter/actions/workflows/build.yml/badge.svg)](https://github.com/convergencelabs/mxgraph-adapter/actions/workflows/build.yml)
+
 
 The **Convergence mxGraph Adapter** makes it easy to provide a collaborative diagram editing experience using [mxGraph](https://github.com/jgraph/mxgraph) and [Convergence](https://convergence.io). This adapter provides shared editing of graph data along with shared pointers and selection.
 
