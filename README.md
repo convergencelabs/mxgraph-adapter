@@ -76,6 +76,6 @@ Convergence
       const graphAdapter = new MxGraphAdapter(graph, model.root());
       const pointerManager = new PointerManager(graph, activity, colorManger);
       const selectionManager = new SelectionManager(graph, activity, colorManger, graphAdapter);
-    }, 0)
+    }, 0);
   });
 ```
