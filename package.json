@@ -56,8 +56,6 @@
     "@rollup/plugin-commonjs": "19.0.0",
     "@rollup/plugin-node-resolve": "13.0.0",
     "@rollup/plugin-typescript": "8.2.1",
-    "@types/backbone": "1.4.1",
-    "clean-css": "^5.1.3",
     "fs-extra": "^10.0.0",
     "lite-server": "2.6.1",
     "rimraf": "^3.0.2",
