@@ -48,7 +48,7 @@
     "example"
   ],
   "dependencies": {
-    "mxgraph": "^3.9.12",
+    "mxgraph": "^4.2.2",
     "@convergence/convergence": "^1.0.0-rc.11",
     "@convergence/color-assigner": "0.3.0"
   },
